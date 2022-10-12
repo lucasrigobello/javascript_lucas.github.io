@@ -1,3 +1,4 @@
+/*
 // Função automatizada para todas as teclas
 function tocaSomPom (idElemento){
     const elemento = document.querySelector(idElemento);
@@ -32,7 +33,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
         }
     }
 }
-
+*/
 
 // Whilhe
 /*
@@ -49,12 +50,17 @@ while (contador < listaDeTeclas.length) {
 */
 
 // Funções repetidas
-/*
+
 function tocaSomPom (){
     document.querySelector('#som_tecla_pom').play();  
 }
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
+function tocaSomPause (){
+    document.querySelector('#som_tecla_pom').pause();
+}
+document.querySelector('.tecla_clap').onclick = tocaSomPause;
+/*
 
 function tocaSomClap (){
     document.querySelector('#som_tecla_clap').play();  
