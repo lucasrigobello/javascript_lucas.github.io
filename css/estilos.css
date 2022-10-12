@@ -28,22 +28,22 @@ h1 {
   border-radius: 30px;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 10px;
 }
 
 .tecla {
   background-color: var(--branca);
-  border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 var(--cinza);
   color: var(--vermelha);
   cursor: pointer;
-  height: 120px;
+  height: 60px;
   font-size: 1.75em;
   font-weight: bold;
-  line-height: 120px;
+  line-height: 60px;
   text-align: center;
-  width: 120px;
+  width: 100px;
 }
 
 .tecla.ativa,
